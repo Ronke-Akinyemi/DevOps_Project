@@ -1,0 +1,8 @@
+from decouple import config
+
+SMTP_HOST = config("EMAIL_HOST")
+SMTP_PORT = 587
+SMTP_USER = config("SERVER_EMAIL")
+SMTP_PASSWORD = config("EMAIL_HOST_PASSWORD")
+TERMII_API_KEY = config('TERMII_API_KEY')
+TERMII_BASE_URL = config('TERMII_BASE_URL')
